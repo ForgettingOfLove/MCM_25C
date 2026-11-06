@@ -1,0 +1,299 @@
+{
+  "generated_at": "2026-11-06T15:05:52",
+  "source_mode": "auto",
+  "years": [
+    2006,
+    2025
+  ],
+  "days": [
+    "04-04",
+    "04-05",
+    "04-06"
+  ],
+  "prcp_unit": "mm（原始文件为英寸，已 ×25.4 换算）",
+  "elapsed_seconds": 92.2,
+  "source_counts": {
+    "cache": 140,
+    "access": 0,
+    "archive": 0,
+    "404": 0,
+    "error": 0
+  },
+  "total_records": 420,
+  "total_ok": 402,
+  "total_trace": 0,
+  "total_dry_I": 119,
+  "total_missing": 18,
+  "status_counts": {
+    "ok": 283,
+    "trace": 0,
+    "dry_I": 119,
+    "no_report": 0,
+    "missing": 6,
+    "no_row": 12,
+    "no_file": 0
+  },
+  "by_city": {
+    "西安": {
+      "station_id": "57131099999",
+      "station_name": "JINGHE（西安泾河）",
+      "station_role": "本市站点",
+      "years_total": 20,
+      "years_ok": 18,
+      "years_partial": 1,
+      "years_fail": 1,
+      "ok_years": [
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "partial_years": [
+        2023
+      ],
+      "fail_years": [
+        2006
+      ],
+      "days_ok": 56,
+      "days_expected": 60,
+      "suspect_years": []
+    },
+    "吐鲁番": {
+      "station_id": "51573099999",
+      "station_name": "TURPAN（吐鲁番）",
+      "station_role": "本市站点",
+      "years_total": 20,
+      "years_ok": 19,
+      "years_partial": 1,
+      "years_fail": 0,
+      "ok_years": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "partial_years": [
+        2023
+      ],
+      "fail_years": [],
+      "days_ok": 59,
+      "days_expected": 60,
+      "suspect_years": []
+    },
+    "婺源": {
+      "station_id": "58527099999",
+      "station_name": "JINGDEZHEN（景德镇）",
+      "station_role": "邻近替代站",
+      "years_total": 20,
+      "years_ok": 18,
+      "years_partial": 1,
+      "years_fail": 1,
+      "ok_years": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2025
+      ],
+      "partial_years": [
+        2023
+      ],
+      "fail_years": [
+        2024
+      ],
+      "days_ok": 55,
+      "days_expected": 60,
+      "suspect_years": []
+    },
+    "杭州": {
+      "station_id": "58457099999",
+      "station_name": "XIAOSHAN（杭州萧山）",
+      "station_role": "本市站点",
+      "years_total": 20,
+      "years_ok": 19,
+      "years_partial": 1,
+      "years_fail": 0,
+      "ok_years": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "partial_years": [
+        2017
+      ],
+      "fail_years": [],
+      "days_ok": 59,
+      "days_expected": 60,
+      "suspect_years": []
+    },
+    "毕节": {
+      "station_id": "57707099999",
+      "station_name": "BIJIE（毕节）",
+      "station_role": "本市站点",
+      "years_total": 20,
+      "years_ok": 19,
+      "years_partial": 1,
+      "years_fail": 0,
+      "ok_years": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "partial_years": [
+        2023
+      ],
+      "fail_years": [],
+      "days_ok": 59,
+      "days_expected": 60,
+      "suspect_years": []
+    },
+    "武汉": {
+      "station_id": "57494099999",
+      "station_name": "TIANHE（武汉天河）",
+      "station_role": "本市站点",
+      "years_total": 20,
+      "years_ok": 17,
+      "years_partial": 3,
+      "years_fail": 0,
+      "ok_years": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2015,
+        2016,
+        2017,
+        2019,
+        2020,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "partial_years": [
+        2014,
+        2018,
+        2021
+      ],
+      "fail_years": [],
+      "days_ok": 55,
+      "days_expected": 60,
+      "suspect_years": []
+    },
+    "洛阳": {
+      "station_id": "57071099999",
+      "station_name": "MENGJIN（洛阳孟津）",
+      "station_role": "邻近替代站",
+      "years_total": 20,
+      "years_ok": 19,
+      "years_partial": 1,
+      "years_fail": 0,
+      "ok_years": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "partial_years": [
+        2023
+      ],
+      "fail_years": [],
+      "days_ok": 59,
+      "days_expected": 60,
+      "suspect_years": []
+    }
+  }
+}
