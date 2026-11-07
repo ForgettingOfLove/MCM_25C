@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T15:05:52",
+  "generated_at": "2026-11-07T14:00:23",
   "source_mode": "auto",
   "years": [
     2006,
@@ -11,10 +11,10 @@
     "04-06"
   ],
   "prcp_unit": "mm（原始文件为英寸，已 ×25.4 换算）",
-  "elapsed_seconds": 92.2,
+  "elapsed_seconds": 803.3,
   "source_counts": {
-    "cache": 140,
-    "access": 0,
+    "cache": 0,
+    "access": 140,
     "archive": 0,
     "404": 0,
     "error": 0

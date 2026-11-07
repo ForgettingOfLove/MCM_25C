@@ -1,6 +1,6 @@
-# Q1 数据采集依赖（Python 3.10+）
+# Q1 数据工程依赖（采集 + 预处理共用，Python 3.10+）
 # 装法：pip install -r requirements.txt
 
 requests>=2.31.0      # HTTP 下载
-pandas>=2.0.0         # CSV 解析与结果表
+pandas>=2.0.0         # CSV 解析、填补、宽表与结果表
 tqdm>=4.66.0          # 进度条

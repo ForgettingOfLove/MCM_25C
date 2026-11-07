@@ -13,7 +13,7 @@
 
 from __future__ import annotations
 
-import argparse
+import argparse        # argument parse参数解析
 import logging
 import sys
 from pathlib import Path
@@ -46,7 +46,7 @@ def build_parser() -> argparse.ArgumentParser:
                         help="相邻请求间隔，默认 0.6")
     parser.add_argument("--no-progress", action="store_true", help="关闭进度条")
     parser.add_argument("--list-cities", action="store_true", help="打印站点映射后退出")
-    return parser
+    return parser  # 参数容器
 
 
 def setup_logging(log_path: Path) -> None:

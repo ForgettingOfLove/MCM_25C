@@ -51,6 +51,10 @@ class ProjectPaths:
         """结果表路径，如 table("fetch_report.csv")。"""
         return self.tables / name
 
+    def processed_file(self, name: str) -> Path:
+        """预处理产物路径，如 processed_file("rain_all.csv")。"""
+        return self.processed / name
+
     def log_file(self, name: str = "fetch_log.txt") -> Path:
         return self.logs / name
 

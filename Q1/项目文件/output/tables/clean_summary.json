@@ -1,0 +1,332 @@
+{
+  "generated_at": "2026-11-07T14:29:44",
+  "input": "output\\tables\\rain_2006_2025.csv",
+  "years": [
+    2006,
+    2025
+  ],
+  "days": [
+    "04-04",
+    "04-05",
+    "04-06"
+  ],
+  "cities": [
+    "西安",
+    "吐鲁番",
+    "婺源",
+    "杭州",
+    "毕节",
+    "武汉",
+    "洛阳"
+  ],
+  "prcp_unit": "mm（采集阶段已由英寸 ×25.4 换算）",
+  "criteria": {
+    "small_rain_mm": [
+      0.1,
+      9.9
+    ],
+    "duration_min_h": 3.0,
+    "duration_available": false,
+    "note": "时长数据未接入，dur_h 与 is_yufengfen 整列为空；本阶段只落降水量维度（prcp_in_small_range）"
+  },
+  "impute": {
+    "method": "同城同月日、其余年份可靠观测均值",
+    "min_sample": 5,
+    "filled": 18,
+    "unfilled": 0,
+    "basis_counts": {
+      "同期均值": 18
+    },
+    "records": [
+      {
+        "city": "西安",
+        "date": "2006-04-04",
+        "status_before": "no_row",
+        "filled_mm": 1.5,
+        "basis": "同期均值",
+        "n_samples": 18
+      },
+      {
+        "city": "西安",
+        "date": "2023-04-04",
+        "status_before": "no_row",
+        "filled_mm": 1.5,
+        "basis": "同期均值",
+        "n_samples": 18
+      },
+      {
+        "city": "西安",
+        "date": "2006-04-05",
+        "status_before": "no_row",
+        "filled_mm": 0.51,
+        "basis": "同期均值",
+        "n_samples": 19
+      },
+      {
+        "city": "西安",
+        "date": "2006-04-06",
+        "status_before": "no_row",
+        "filled_mm": 0.27,
+        "basis": "同期均值",
+        "n_samples": 19
+      },
+      {
+        "city": "吐鲁番",
+        "date": "2023-04-04",
+        "status_before": "no_row",
+        "filled_mm": 0.0,
+        "basis": "同期均值",
+        "n_samples": 19
+      },
+      {
+        "city": "婺源",
+        "date": "2023-04-04",
+        "status_before": "no_row",
+        "filled_mm": 9.02,
+        "basis": "同期均值",
+        "n_samples": 18
+      },
+      {
+        "city": "婺源",
+        "date": "2024-04-04",
+        "status_before": "no_row",
+        "filled_mm": 9.02,
+        "basis": "同期均值",
+        "n_samples": 18
+      },
+      {
+        "city": "婺源",
+        "date": "2023-04-05",
+        "status_before": "no_row",
+        "filled_mm": 6.53,
+        "basis": "同期均值",
+        "n_samples": 18
+      },
+      {
+        "city": "婺源",
+        "date": "2024-04-05",
+        "status_before": "no_row",
+        "filled_mm": 6.53,
+        "basis": "同期均值",
+        "n_samples": 18
+      },
+      {
+        "city": "婺源",
+        "date": "2024-04-06",
+        "status_before": "no_row",
+        "filled_mm": 9.83,
+        "basis": "同期均值",
+        "n_samples": 19
+      },
+      {
+        "city": "杭州",
+        "date": "2017-04-05",
+        "status_before": "missing",
+        "filled_mm": 7.25,
+        "basis": "同期均值",
+        "n_samples": 19
+      },
+      {
+        "city": "毕节",
+        "date": "2023-04-04",
+        "status_before": "no_row",
+        "filled_mm": 0.78,
+        "basis": "同期均值",
+        "n_samples": 19
+      },
+      {
+        "city": "武汉",
+        "date": "2014-04-04",
+        "status_before": "missing",
+        "filled_mm": 3.44,
+        "basis": "同期均值",
+        "n_samples": 18
+      },
+      {
+        "city": "武汉",
+        "date": "2018-04-04",
+        "status_before": "missing",
+        "filled_mm": 3.44,
+        "basis": "同期均值",
+        "n_samples": 18
+      },
+      {
+        "city": "武汉",
+        "date": "2018-04-05",
+        "status_before": "missing",
+        "filled_mm": 10.16,
+        "basis": "同期均值",
+        "n_samples": 18
+      },
+      {
+        "city": "武汉",
+        "date": "2021-04-05",
+        "status_before": "missing",
+        "filled_mm": 10.16,
+        "basis": "同期均值",
+        "n_samples": 18
+      },
+      {
+        "city": "武汉",
+        "date": "2021-04-06",
+        "status_before": "missing",
+        "filled_mm": 3.44,
+        "basis": "同期均值",
+        "n_samples": 19
+      },
+      {
+        "city": "洛阳",
+        "date": "2023-04-04",
+        "status_before": "no_row",
+        "filled_mm": 1.55,
+        "basis": "同期均值",
+        "n_samples": 19
+      }
+    ],
+    "unfilled_records": [],
+    "all_imputed_years": [
+      "西安 2006",
+      "婺源 2024"
+    ]
+  },
+  "grid": {
+    "rows_expected": 420,
+    "rows_found": 420,
+    "rows_added": 0,
+    "duplicates": 0,
+    "warnings": []
+  },
+  "stats": {
+    "rows": 420,
+    "cities": 7,
+    "years": 20,
+    "days_per_year": 3,
+    "days_filled": 18,
+    "days_all_imputed": 2,
+    "status_counts": {
+      "ok": 283,
+      "trace": 0,
+      "dry_I": 119,
+      "no_report": 0,
+      "missing": 6,
+      "no_row": 12,
+      "no_file": 0
+    },
+    "series_total": 140,
+    "series_zero": 58,
+    "extreme_days": 0,
+    "mean_mm": 3.332,
+    "max_mm": 66.29,
+    "min_mm": 0.0
+  },
+  "issues": [
+    "西安：11/20 年假期无雨，序列稀疏",
+    "吐鲁番：全零序列（假期降水 20 年恒为 0，ARIMA 无信息可提取）",
+    "吐鲁番：20/20 年假期无雨，序列稀疏",
+    "婺源：替代站（JINGDEZHEN（景德镇）），非本市实测",
+    "洛阳：12/20 年假期无雨，序列稀疏",
+    "洛阳：替代站（MENGJIN（洛阳孟津）），非本市实测",
+    "西安 2006：三日全为填补值，该年不是真实观测",
+    "婺源 2024：三日全为填补值，该年不是真实观测"
+  ],
+  "by_city": {
+    "西安": {
+      "station_id": "57131099999",
+      "station_name": "JINGHE（西安泾河）",
+      "station_role": "本市站点",
+      "days_total": 60,
+      "days_filled": 4,
+      "fill_rate": 0.0667,
+      "days_trace": 0,
+      "prcp_mean_mm": 0.76,
+      "series_zero_years": 11,
+      "series_std": 4.013,
+      "usable_for_arima": true,
+      "issue": "11/20 年假期无雨，序列稀疏"
+    },
+    "吐鲁番": {
+      "station_id": "51573099999",
+      "station_name": "TURPAN（吐鲁番）",
+      "station_role": "本市站点",
+      "days_total": 60,
+      "days_filled": 1,
+      "fill_rate": 0.0167,
+      "days_trace": 0,
+      "prcp_mean_mm": 0.0,
+      "series_zero_years": 20,
+      "series_std": 0.0,
+      "usable_for_arima": false,
+      "issue": "全零序列（假期降水 20 年恒为 0，ARIMA 无信息可提取）；20/20 年假期无雨，序列稀疏"
+    },
+    "婺源": {
+      "station_id": "58527099999",
+      "station_name": "JINGDEZHEN（景德镇）",
+      "station_role": "邻近替代站",
+      "days_total": 60,
+      "days_filled": 5,
+      "fill_rate": 0.0833,
+      "days_trace": 0,
+      "prcp_mean_mm": 8.46,
+      "series_zero_years": 4,
+      "series_std": 33.094,
+      "usable_for_arima": true,
+      "issue": "替代站（JINGDEZHEN（景德镇）），非本市实测"
+    },
+    "杭州": {
+      "station_id": "58457099999",
+      "station_name": "XIAOSHAN（杭州萧山）",
+      "station_role": "本市站点",
+      "days_total": 60,
+      "days_filled": 1,
+      "fill_rate": 0.0167,
+      "days_trace": 0,
+      "prcp_mean_mm": 5.87,
+      "series_zero_years": 5,
+      "series_std": 25.357,
+      "usable_for_arima": true,
+      "issue": ""
+    },
+    "毕节": {
+      "station_id": "57707099999",
+      "station_name": "BIJIE（毕节）",
+      "station_role": "本市站点",
+      "days_total": 60,
+      "days_filled": 1,
+      "fill_rate": 0.0167,
+      "days_trace": 0,
+      "prcp_mean_mm": 1.88,
+      "series_zero_years": 1,
+      "series_std": 5.132,
+      "usable_for_arima": true,
+      "issue": ""
+    },
+    "武汉": {
+      "station_id": "57494099999",
+      "station_name": "TIANHE（武汉天河）",
+      "station_role": "本市站点",
+      "days_total": 60,
+      "days_filled": 5,
+      "fill_rate": 0.0833,
+      "days_trace": 0,
+      "prcp_mean_mm": 5.68,
+      "series_zero_years": 5,
+      "series_std": 27.536,
+      "usable_for_arima": true,
+      "issue": ""
+    },
+    "洛阳": {
+      "station_id": "57071099999",
+      "station_name": "MENGJIN（洛阳孟津）",
+      "station_role": "邻近替代站",
+      "days_total": 60,
+      "days_filled": 1,
+      "fill_rate": 0.0167,
+      "days_trace": 0,
+      "prcp_mean_mm": 0.68,
+      "series_zero_years": 12,
+      "series_std": 3.318,
+      "usable_for_arima": true,
+      "issue": "12/20 年假期无雨，序列稀疏；替代站（MENGJIN（洛阳孟津）），非本市实测"
+    }
+  }
+}
